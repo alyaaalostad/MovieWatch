@@ -1,7 +1,7 @@
 const initialState = {
   movies: [
     {
-      name: "test",
+      name: "",
       newMovieId: 0,
       watched: false
     }
@@ -21,17 +21,19 @@ export default (state = initialState, action) => {
         movies: state.movies.concat(newMovie)
       };
     case "DELETE_MOVIE":
-      const movieID = action.payload;
+      const taskToDelete = action.payload;
       return {
         ...state,
-        authors: state.authors.filter(movie => movie.id != movieID)
+        movies: state.movies.filter(movie => movie !== taskToDelete)
       };
-    case "TOGGLE":
-      let movie = state.movies.find(movie => movie.id === action.payload);
-      movie.watched = !movie.watched;
+    case "CHANGE_MOVIE":
+      const taskToChange = action.payload;
+
       return {
         ...state,
-        movies: [...state.movies]
+        movies: state.movies.map(movie =>
+          movie !== taskToChange ? movie : { ...movie, watched: !movie.watched }
+        )
       };
     default:
       return state;

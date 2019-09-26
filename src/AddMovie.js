@@ -12,9 +12,9 @@ class AddMovie extends Component {
   handleChange = event => {
     this.setState({ name: event.target.value });
   };
-  // handleSubmit = () => {
-  //   this.props.addMovie(this.state.name);
-  // };
+  handleSubmit = () => {
+    this.props.addMovie(this.state.name);
+  };
   render() {
     return (
       <div className="form-group col-lg-6 col-12 mx-auto">

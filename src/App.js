@@ -11,7 +11,9 @@ class App extends Component {
         <div className="row">
           <div className="content col-10">
             <AddMovie />
+            <p>Watch</p>
             <MovieList watched={true} />
+            <p>WatchList </p>
             <MovieList watched={false} />
           </div>
         </div>

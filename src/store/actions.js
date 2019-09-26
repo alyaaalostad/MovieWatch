@@ -1,6 +1,6 @@
 const ADD_MOVIE = "ADD_MOVIE";
 const DELETE_MOVIE = "DELETE_MOVIE";
-const TOGGLE = "TOGGLE";
+const CHANGE_MOVIE = "CHANGE_MOVIE";
 export const addMovie = movieName => {
   return {
     type: ADD_MOVIE,
@@ -15,9 +15,9 @@ export const deleteMovie = movieID => {
   };
 };
 
-export const toggleMovie = movieID => {
+export const changeMovie = movieID => {
   return {
-    type: TOGGLE,
+    type: CHANGE_MOVIE,
     payload: movieID
   };
 };

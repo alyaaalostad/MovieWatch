@@ -12,7 +12,7 @@ class MovieList extends Component {
       .map(movie => <MovieRow movie={movie} />);
     return (
       <div className="movies">
-        <h3>Movies</h3>
+        <h3></h3>
         <table className="mt-3 table">
           <thead>
             <tr>
