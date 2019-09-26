@@ -28,10 +28,8 @@ class MovieList extends Component {
         <br></br>
         <table className="mt-3 table">
           <thead>
-            <tr>
-              <th className="design2">movie name</th>
-              <th className="design2">status</th>
-              <th className="design2">delete</th>
+            <tr className="design4">
+              <th className="tablecolor1">movie name</th>
             </tr>
           </thead>
           <tbody className="design2">{movieRow}</tbody>

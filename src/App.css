@@ -20,9 +20,7 @@
 .App-link {
   color: #09d3ac;
 }
-.move {
-  margin-left: 50%;
-}
+
 .background {
   background-color: white;
 }
@@ -31,9 +29,7 @@
   font-family: Impact, Charcoal, sans-serif;
   font-size: 40px;
   letter-spacing: 0.4px;
-  word-spacing: 0.2px;
-  color: #439aff;
-  font-weight: 400;
+  color: black;
   text-decoration: underline solid rgb(68, 68, 68);
   font-style: normal;
   font-variant: small-caps;
@@ -46,8 +42,6 @@
 .design3 {
   font-family: Verdana, Geneva, sans-serif;
   font-size: 20px;
-  letter-spacing: -0.2px;
-  word-spacing: 0.2px;
   color: black;
   font-weight: 700;
   text-decoration: none solid rgb(68, 68, 68);
@@ -59,12 +53,29 @@
 .design2 {
   font-family: Verdana, Geneva, sans-serif;
   font-size: 20px;
-  letter-spacing: -0.2px;
-  word-spacing: 0.2px;
-  color: black;
+  color: white;
   font-weight: 700;
   text-decoration: none solid rgb(68, 68, 68);
   font-style: italic;
   font-variant: small-caps;
   text-transform: capitalize;
+}
+
+.tablecolor {
+  margin-left: 10px;
+  background-color: rgb(92, 87, 87);
+}
+
+.design4 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 20px;
+  color: black;
+  margin-right: 30px;
+}
+.move {
+  margin-left: 30px;
+}
+.tablecolor1 {
+  margin-left: 10px;
+  background-color: rgb(231, 222, 222);
 }
