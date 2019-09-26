@@ -24,12 +24,12 @@
   margin-left: 50%;
 }
 .background {
-  background-color: #184170;
+  background-color: white;
 }
 
 .design {
   font-family: Impact, Charcoal, sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   letter-spacing: 0.4px;
   word-spacing: 0.2px;
   color: #439aff;
@@ -38,7 +38,7 @@
   font-style: normal;
   font-variant: small-caps;
   text-transform: none;
-  margin-left: 45%;
+  margin-left: 40%;
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -48,19 +48,20 @@
   font-size: 20px;
   letter-spacing: -0.2px;
   word-spacing: 0.2px;
-  color: #439aff;
+  color: black;
   font-weight: 700;
   text-decoration: none solid rgb(68, 68, 68);
   font-style: italic;
   font-variant: small-caps;
   text-transform: capitalize;
+  margin-left: 20px;
 }
 .design2 {
   font-family: Verdana, Geneva, sans-serif;
   font-size: 20px;
   letter-spacing: -0.2px;
   word-spacing: 0.2px;
-  color: white;
+  color: black;
   font-weight: 700;
   text-decoration: none solid rgb(68, 68, 68);
   font-style: italic;

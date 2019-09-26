@@ -1,11 +1,5 @@
 const initialState = {
-  movies: [
-    {
-      name: "",
-      newMovieId: 0,
-      watched: false
-    }
-  ]
+  movies: []
 };
 
 export default (state = initialState, action) => {
@@ -18,7 +12,7 @@ export default (state = initialState, action) => {
       };
       return {
         ...state,
-        movies: state.movies.concat(newMovie)
+        movies: [newMovie, ...state.movies]
       };
     case "DELETE_MOVIE":
       const taskToDelete = action.payload;

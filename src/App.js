@@ -14,8 +14,7 @@ class App extends Component {
             <AddMovie />
             <p className="design3">Watch</p>
             <MovieList watched={true} />
-            <br></br>
-            <br></br>
+
             <br></br>
             <p className="design3">WatchList </p>
             <MovieList watched={false} />
