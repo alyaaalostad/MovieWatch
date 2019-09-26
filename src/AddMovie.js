@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
+
 import { connect } from "react-redux";
+import "./App.css";
 //Actions
 import { addMovie } from "./store/actions";
 
